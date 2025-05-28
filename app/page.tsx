@@ -2,9 +2,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Trie } from "@/lib/trie";
 import data from "@/app/data.json";
-type PhoneBook = {
-  [name: string]: string;
-};
 
 export default function Home() {
   const [query, setQuery] = useState("");
